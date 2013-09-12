@@ -9,7 +9,7 @@ var app = express(express.logger());
 
 // Serve files to client
 app.configure(function () {
-	app.use('/bootstrap', express.static(__dirname + '/bootstrap'));
+	app.use('/font', express.static(__dirname + '/font'));
   	app.use('/css', express.static(__dirname + '/css'));
   	app.use('/js', express.static(__dirname + '/js'));
   	app.use('/html', express.static(__dirname + '/html'));
